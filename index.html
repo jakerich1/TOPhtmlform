@@ -4,20 +4,52 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>TOP HTML form</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TOP HTML form</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="script.js"></script>
-    </body>
+
+    <main>
+        <section>
+            <h1 class="center">Create an Intuit account</h1>
+            <h2 class="center">One account for everythin Intuit, including Mint.<br><a href="#">Learn more</a></h2>
+
+            <form action="#">
+
+                <label for="email">Email address</label>
+                <input id="email" type="email">
+
+                <label for="phone">Phone (recommended)</label>
+                <input id="phone" type="tel">
+                <p class="caption">Standard call, messaging or data rates may apply.</p>
+
+                <label for="password">Password</label>
+                <input id="password" type="password">
+
+                <button name="submit">Create Account</button>
+
+                <p class="caption center">By clicking Create Account, you agree to our <a href="#">Terms</a> and have
+                    read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
+
+            </form>
+        </section>
+        <footer>
+            <p class="caption fcap">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
